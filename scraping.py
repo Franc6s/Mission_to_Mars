@@ -23,7 +23,7 @@ def scrape_all():
     }
 
     # Stop webdriver and return data
-    browser.quit()
+    #browser.quit()
     return data
 
 
