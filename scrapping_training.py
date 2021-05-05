@@ -9,6 +9,7 @@ import pandas as pd
 executable_path = {'executable_path': ChromeDriverManager().install()}
 browser = Browser('chrome', **executable_path, headless=False)
 
+def mars_news(browser):
 
 # # Assign the URL
 
@@ -30,11 +31,11 @@ slide_elem.find('div', class_='content_title')
 
 # Use the parent element to find the first `a` tag and save it as `news_title`
 news_title = slide_elem.find('div', class_='content_title').get_text()
-news_title
 
 # Use the parent element to find the paragraph text
 news_p = slide_elem.find('div', class_='article_teaser_body').get_text()
-news_p
+
+return news_title, news_p
 
 
 # # Featured Images
@@ -85,6 +86,7 @@ df.to_html()
 # # To end the automated browsing session 
 
 browser.quit()
+
 
 
 
