@@ -7,29 +7,44 @@ body {
   
   .container {
     margin-top: 20px;
+    margin-bottom: 20px;
+    ;
   }
   
-  /* Jumbotron Styling */
+  /* Jumbotron Styling*/
+
   .jumbotron {
-    background-color: #007bff;
+    background-color: lightgrey;
     color: white;
-    padding: 40px 20px;
-    border-radius: 10px;
+    padding: 20px 20px;
+    border-radius: 8px;
+    text-align: center;
   }
   
   .jumbotron h1 {
     font-size: 48px;
+    text-align: center;
   }
   
-  .jumbotron p a {
+  .jumbotron button {
     margin-top: 20px;
+    background-color: #007bff;
+    padding:15px 20px ;
+    border-radius: 8px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .jumbotron button:active{
+    color: #007bff;
+    font-size: 24px;
   }
   
   /* Mars News Section */
-  #mars-news {
+   #mars-news {
     margin-bottom: 30px;
   }
-  
   .media-heading {
     color: #007bff;
     font-size: 24px;
@@ -90,4 +105,4 @@ body {
       font-size: 18px;
     }
   }
-  
+   */
