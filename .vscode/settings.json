@@ -1,3 +1,5 @@
-{
-    "python.pythonPath": "/Users/francismangala/opt/anaconda3/envs/PythonData/bin/python"
-}
+
+ {
+        "python.defaultInterpreterPath": "C:/Users/manga/anaconda3/python.exe"
+      }
+      

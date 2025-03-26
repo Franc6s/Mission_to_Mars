@@ -7,7 +7,7 @@
     <title>Mission to Mars</title>
     <link
       rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+      href="./style.css"
     />
   </head>
   <body>
@@ -56,21 +56,4 @@
 
       <!-- Section for Mars Hemispheres -->
       <div class="row" id="mars-hemispheres">
-        <div class="page-header">
-          <h2 class="text-center">Mars Hemispheres</h2>
-        </div>
-
-        {% for hemisphere in mars.hemispheres %}
-        <div class="col-md-6">
-          <div class="thumbnail">
-            <img src="./Mars.jpg" alt="...">
-            <div class="caption">
-              <h3>{{hemisphere.title}}</h3>
-            </div>
-          </div>
-        </div>
-        {% endfor %}
-      </div>
-    </div>
-  </body>
-</html>
+        <div class="page-header
